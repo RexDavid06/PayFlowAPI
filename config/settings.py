@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'drf_yasg', # for swagger documentation
-    'corsheaders',
+    'corsheaders', # for interacting with a frontend
 
     'accounts',
     'wallets.apps.WalletsConfig',
